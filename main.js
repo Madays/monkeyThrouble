@@ -3,10 +3,10 @@ function monkeyTrouble() {
     var bSmile = document.getElementById("bSmile").value;  
     
     if (aSmile=="si" && bSmile=="si"){
-        document.getElementById("resultado").innerHTML="1"   ;
+        document.getElementById("resultado").innerHTML="Retorna: 1"   ;
     }else if (aSmile=="no" && bSmile=="no"){
-        document.getElementById("resultado").innerHTML="1";
+        document.getElementById("resultado").innerHTML="Retorna: 1";
     }else{
-        document.getElementById("resultado").innerHTML="0";
+        document.getElementById("resultado").innerHTML="Retorna: 0";
     }   
 }
